@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Actions</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons button {
+            margin-right: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+
+<h1>rfi for concreted in free land only</h1>
+<h3>Total= 91</h3>
+    
+
+    <div class="buttons">
+        <button onclick="printPage()">Print</button>
+        <button onclick="downloadPDF()">Download as PDF</button>
+        <button onclick="sendEmail()">Send by Email</button>
+        <button onclick="sendWhatsApp()">Send by WhatsApp</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Code</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SA3-PLN-CE-0010</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SA3-PLN-CE-0046</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SA3-PLN-CE-0067</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SA3-PLN-CE-0096</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>SA3-PLN-CE-0121</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>SA3-PLN-CE-0151</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>SA3-PLN-CE-0180</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>SA3-PLN-CE-0211</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>SA3-PLN-CE-0240</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>SA3-PLN-CE-0266</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>SA3-PLN-CE-0297</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>SA3-PLN-CE-0326</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>SA3-PLN-CE-0352</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>SA3-PLN-CE-0378</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>SA3-PLN-CE-0409</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>SA3-PLN-CE-0438</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>SA3-PLN-CE-0469</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>SA3-PLN-CE-0498</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>SA3-PLN-CE-0525</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>SA3-PLN-CE-0552</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>SA3-PLN-CE-0584</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>SA3-PLN-CE-0613</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>SA3-PLN-CE-0640</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>SA3-PLN-CE-0667</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>SA3-PLN-CE-0707</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>SA3-PLN-CE-0729</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>SA3-PLN-CE-0758</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>SA3-PLN-CE-0792</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>SA3-PLN-CE-0822</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>SA3-PLN-CE-0850</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>SA3-PLN-CE-0878</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>SA3-PLN-CE-0912</td>
+                <td>Area around the drain station should be concreted in free land only.</td>
+            </tr>
+          
+                    <tr>
+                        <td>33</td>
+                        <td>SA3-PLN-CE-0941</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td>SA3-PLN-CE-0969</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>35</td>
+                        <td>SA3-PLN-CE-1002</td>
+                        <td>Area around the drain station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>36</td>
+                        <td>SA3-PLN-CE-1032</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>37</td>
+                        <td>SA3-PLN-CE-1072</td>
+                        <td>Area around the drain station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>38</td>
+                        <td>SA3-PLN-CE-1089</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>39</td>
+                        <td>SA3-PLN-CE-1118</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>40</td>
+                        <td>SA3-PLN-CE-1148</td>
+                        <td>Area around the drain station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>41</td>
+                        <td>SA3-PLN-CE-1172</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>42</td>
+                        <td>SA3-PLN-CE-1194</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>43</td>
+                        <td>SA3-PLN-CE-1213</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>44</td>
+                        <td>SA3-PLN-CE-1231</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td>SA3-PLN-CE-1249</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>46</td>
+                        <td>SA3-PLN-CE-1268</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>47</td>
+                        <td>SA3-PLN-CE-1286</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>48</td>
+                        <td>SA3-PLN-CE-1296</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>49</td>
+                        <td>SA3-PLN-CE-1315</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td>SA3-PLN-CE-1333</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>51</td>
+                        <td>SA3-PLN-CE-1353</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>52</td>
+                        <td>SA3-PLN-CE-1363</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>53</td>
+                        <td>SA3-PLN-CE-1381</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>54</td>
+                        <td>SA3-PLN-CE-1397</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>55</td>
+                        <td>SA3-PLN-CE-1414</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>56</td>
+                        <td>SA3-PLN-CE-1432</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>57</td>
+                        <td>SA3-PLN-CE-1449</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>58</td>
+                        <td>SA3-PLN-CE-1458</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>59</td>
+                        <td>SA3-PLN-CE-1475</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>60</td>
+                        <td>SA3-PLN-CE-1493</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>61</td>
+                        <td>SA3-PLN-CE-1512</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>62</td>
+                        <td>SA3-PLN-CE-1530</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>63</td>
+                        <td>SA3-PLN-CE-1549</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+                    <tr>
+                        <td>64</td>
+                        <td>SA3-PLN-CE-1575</td>
+                        <td>Area around the vent station should be concreted in free land only.</td>
+                    </tr>
+
+
+                                 <!-- Add rows here for indices 1 to 64 -->
+            <tr>
+                <td>65</td>
+                <td>SA3-PLN-CE-1592</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>66</td>
+                <td>SA3-PLN-CE-1610</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>SA3-PLN-CE-1642</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>68</td>
+                <td>SA3-PLN-CE-1678</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td>SA3-PLN-CE-1699</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>SA3-PLN-CE-1730</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>71</td>
+                <td>SA3-PLN-CE-1749</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td>SA3-PLN-CE-1758</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>73</td>
+                <td>SA3-PLN-CE-1779</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>74</td>
+                <td>SA3-PLN-CE-1789</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>75</td>
+                <td>SA3-PLN-CE-1799</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>SA3-PLN-CE-1819</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>77</td>
+                <td>SA3-PLN-CE-1828</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>78</td>
+                <td>SA3-PLN-CE-1847</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>79</td>
+                <td>SA3-PLN-CE-1866</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>SA3-PLN-CE-1876</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>81</td>
+                <td>SA3-PLN-CE-1886</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>82</td>
+                <td>SA3-PLN-CE-1896</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>83</td>
+                <td>SA3-PLN-CE-1917</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>84</td>
+                <td>SA3-PLN-CE-1927</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>85</td>
+                <td>SA3-PLN-CE-1947</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>86</td>
+                <td>SA3-PLN-CE-1968</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>87</td>
+                <td>SA3-PLN-CE-1978</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>88</td>
+                <td>SA3-PLN-CE-1999</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>89</td>
+                <td>SA3-PLN-CE-2019</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>90</td>
+                <td>SA3-PLN-CE-2039</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+            <tr>
+                <td>91</td>
+                <td>SA3-PLN-CE-2061</td>
+                <td>Area around the vent station should be concreted in free land only.</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        function printPage() {
+            window.print();
+        }
+
+        function downloadPDF() {
+            // Add logic to download the table as a PDF
+        }
+
+        function sendEmail() {
+            // Add logic to send the table by email
+        }
+
+        function sendWhatsApp() {
+            // Add logic to send the table by WhatsApp
+        }
+    </script>
+</body>
+</html>
